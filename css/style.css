@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+}
+
+.waves {
+    display: block;
+    height: 58px;
+    background-image: url(/waves.svg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center center;
+}
+
+.headerbox {
+    display: inline-block;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(#00CDF6, #012C32);
+}
+
+.headertitle {
+    margin-top: 150px;
+    color: white;
+}
+
+.leftsectiontitle {
+    display: block;
+    margin: 50px 0px 25px 150px;
+    letter-spacing: 3px;
+    color: #0C6D78;
+    font-weight: bold;
+}
+
+.leftparagraph {
+    display: block;
+    margin: 0px 150px 0px 150px;
+}
+
+.rightsectiontitle {
+    display: block;
+    margin: 50px 150px 25px 0px;
+    letter-spacing: 3px;
+    color: #0C6D78;
+    font-weight: bold;
+}
+
+.rightparagraph {
+    display: block;
+    margin: 0px 150px 75px 150px;
+}
